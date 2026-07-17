@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(13, 173, 101);
+    background-color: rgb(57, 56, 56);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

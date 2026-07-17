@@ -1,11 +1,26 @@
 body {
     margin: 0;
     padding: 0;
-    color: rgb(13, 173, 101);
-    background-color: rgb(57, 56, 56);
-    
+    background-color: white;
+}
+
+main {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
+.content {
+    width: 500px;
+    background-color: rgb(196, 127, 0);
+    border-radius: 15px;
+    padding: 10px 0 0 10px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}

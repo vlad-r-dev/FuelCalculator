@@ -24,3 +24,43 @@ main {
     align-items: center;
     font-size: 25px;
 }
+
+label {
+    font-size: 23px;
+    display: block;
+    text-align: left;
+}
+
+input {
+    margin-top: 8px;
+    margin-bottom: 10px;
+    text-align: left;
+    height: 27px;
+    border-radius: 5px;
+
+    width: 300px;
+    height: 40px;
+}
+
+button {
+    display: block;
+    height: 40px;
+    width: 308px;
+    font-size: 20px;
+
+    background-color: rgb(0, 182, 21);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+    margin-bottom: 20px;
+}
+
+.output {
+    width: 450px;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(156, 101, 0);
+    border-radius: 15px;
+
+}

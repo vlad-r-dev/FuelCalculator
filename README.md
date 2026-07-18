@@ -19,6 +19,9 @@ A simple website that helps drivers calculate fuel consumption for a trip.
 
 ## Version
 
+New features in version 1.0:
+- Fuel consumption calculation
+
 Current version: 1.0
 
 ## Author

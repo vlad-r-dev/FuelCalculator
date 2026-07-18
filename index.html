@@ -16,21 +16,22 @@
         <div class="content">
             <div class="input">
                 <label>Розхід палива л/100км</label>
-                <input type="number">
+                <input type="number" id="consumption">
                 <label>Кількість літрів у баці</label>
-                <input type="number">
+                <input type="number" id="fuel">
                 <label>Відстань, яку треба проїхати (км)</label>
-                <input type="number">
-                <button>Розрахувати</button>
+                <input type="number" id="distance">
+                <button id="calculate">Розрахувати</button>
             </div>
 
             <div class="output">
                 <label>Результат:</label>
-                <p>Ви витратите [...] л. палива</p>
+                <p id="result">Ви витратите [...] л. палива</p>
             </div>
         </div>
 
     </main>
 
+    <script src="script.js"></script>
 </body>
 </html>

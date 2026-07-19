@@ -23,7 +23,22 @@ calculateButton.addEventListener("click", function (){
     const fuelUsed = (consumption * distance) / 100;
 
     const result = document.getElementById("result");
-    result.textContent = `Ви витратите ${fuelUsed} л. палива`;
+    
+// Анімація витрати палива
+    function animateResult(targetValue) {
+        let current = 0;
+
+        const interval = setInterval(() => {
+            current += targetValue / 40;
+
+            if(current >= targetValue) {
+                current = targetValue;
+                clearInterval(interval);
+            }
+            result.textContent = `Ви витратите ${current.toFixed(1)} л. палива`;   
+        }, 20);
+    }
+    animateResult(fuelUsed)
 });
 
 clearButton.addEventListener("click",

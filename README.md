@@ -1,15 +1,16 @@
-# FuelCalculator
-Website for calculating fuel consumption
+## Preview
 
-# Fuel Calculator
+![Fuel Calculator](images/version1_1.png)
+
+# ⛽Fuel Calculator
 
 A simple website that helps drivers calculate fuel consumption for a trip.
 
 ## Features
 
-- Calculate fuel used
+- Calculate fuel consumption
 - Calculate remaining fuel in the tank
-- Calculate remaining driving range
+- Calculate the remaining driving range
 
 ## Technologies
 
@@ -17,12 +18,23 @@ A simple website that helps drivers calculate fuel consumption for a trip.
 - CSS
 - JavaScript
 
-## Version
+## Website Language
+- Ukraine
 
-New features in version 1.0:
+## Changelog
+
+### Version [1.1] (19 July 2026)
+**Added:**
+- Animate result counter
+- Clear button
+- Nunito font
+- UI improvements
+
+### Version [1.0] (18 July 2026)
+**Initial release:**
 - Fuel consumption calculation
 
-Current version: 1.0
+**Current version:** **1.1**
 
 ## Author
 

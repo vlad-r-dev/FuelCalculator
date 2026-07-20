@@ -1,0 +1,37 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="32" height="32" fill="#1D3D5F"/>
+<rect width="32" height="32" fill="white"/>
+<rect x="14" y="3" width="1" height="26" fill="#FA0000"/>
+<path d="M13 4C13 3.44772 13.4477 3 14 3V3V29V29C13.4477 29 13 28.5523 13 28V4Z" fill="#FA0000"/>
+<path d="M14 3H26C26.5523 3 27 3.44772 27 4V4H14V3Z" fill="#FA0000"/>
+<rect x="14" y="4" width="13" height="1" fill="#FA0000"/>
+<rect x="14" y="10" width="13" height="1" fill="#FA0000"/>
+<rect x="14" y="11" width="13" height="1" fill="#FA0000"/>
+<rect x="6" y="21" width="7" height="1" fill="#FF8C00"/>
+<rect x="6" y="20" width="7" height="1" fill="#FF8C00"/>
+<rect x="6" y="12" width="1" height="10" fill="#FF8C00"/>
+<path d="M5 13C5 12.4477 5.44772 12 6 12V12V22V22C5.44772 22 5 21.5523 5 21V13Z" fill="#FF8C00"/>
+<path d="M7 13H10V13C10 13.5523 9.55228 14 9 14H7V13Z" fill="#FF8C00"/>
+<rect x="7" y="12" width="2" height="1" fill="#FF8C00"/>
+<path d="M9 5H10V13H9V5Z" fill="#FF8C00"/>
+<path d="M8 6C8 5.44772 8.44772 5 9 5V5V12H8V6Z" fill="#FF8C00"/>
+<rect x="10" y="5" width="3" height="1" fill="#FF8C00"/>
+<rect x="10" y="6" width="3" height="1" fill="#FF8C00"/>
+<path d="M26 5H27V28C27 28.5523 26.5523 29 26 29V29V5Z" fill="black"/>
+<rect x="25" y="5" width="1" height="24" fill="black"/>
+<rect x="15" y="27" width="10" height="2" fill="black"/>
+<path d="M17 7C17 6.44772 17.4477 6 18 6V6V9V9C17.4477 9 17 8.55228 17 8V7Z" fill="black"/>
+<path d="M18 8H23V8C23 8.55228 22.5523 9 22 9H18V8Z" fill="black"/>
+<path d="M22 6V6C22.5523 6 23 6.44772 23 7V8C23 8.55228 22.5523 9 22 9V9V6Z" fill="black"/>
+<path d="M18 6H22V7H18V6Z" fill="black"/>
+<rect x="17" y="14" width="1" height="2" fill="black"/>
+<rect x="22" y="14" width="1" height="2" fill="black"/>
+<rect x="16" y="17" width="1" height="1" fill="black"/>
+<rect x="17" y="18" width="1" height="1" fill="black"/>
+<rect x="18" y="19" width="1" height="1" fill="black"/>
+<rect x="19" y="19" width="1" height="1" fill="black"/>
+<rect x="20" y="19" width="1" height="1" fill="black"/>
+<rect x="23" y="17" width="1" height="1" fill="black"/>
+<rect x="22" y="18" width="1" height="1" fill="black"/>
+<rect x="21" y="19" width="1" height="1" fill="black"/>
+</svg>

@@ -3,6 +3,15 @@ const fuelInput = document.getElementById("fuel");
 const distanceInput = document.getElementById("distance");
 const calculateButton = document.getElementById("calculate");
 const clearButton = document.getElementById("reset");
+const toast = document.getElementById("toast");
+
+function showToast(text) {
+    toast.textContent = text;
+    toast.classList.add("show");
+    setTimeout(function () {
+toast.classList.remove("show");
+    }, 2500);
+}
 
 calculateButton.addEventListener("click", function (){
 
@@ -11,7 +20,7 @@ calculateButton.addEventListener("click", function (){
         fuelInput.value === "" ||
         distanceInput.value === ""
     ) {
-        alert("Заповність усі поля!");
+        showToast("Заповність усі поля!");
         return;
     }
 
@@ -19,11 +28,19 @@ calculateButton.addEventListener("click", function (){
     const consumption = Number(consumptionInput.value);
     const fuel = Number(fuelInput.value);
     const distance = Number(distanceInput.value);
-
     const fuelUsed = (consumption * distance) / 100;
-
     const result = document.getElementById("result");
-    
+
+    if (fuelUsed > fuel) {
+        showToast("☹️ У баку недостатьно пального для цієї поїздки.");
+        return;
+    }
+
+    if (consumption <= 0 || fuel <= 0 || distance <=0) {
+        showToast("Усі значення повинні бути більшими за 0.");
+        return;
+    }
+
 // Анімація витрати палива
     function animateResult(targetValue) {
         let current = 0;

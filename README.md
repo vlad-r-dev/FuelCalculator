@@ -25,7 +25,7 @@ A simple website that helps drivers calculate fuel consumption for a trip.
 ## Changelog
 
 ### Version [1.2] (21 July 2026)
-***Added:**
+**Added:**
 - Dark theme.
 - Animated information banner.
 - Various changes to the UI.

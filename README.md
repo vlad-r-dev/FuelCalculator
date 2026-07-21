@@ -1,6 +1,7 @@
 ## Preview
 
 ![Fuel Calculator](images/version1_1.png)
+![Dark Theme](images/dark-theme.png)
 
 # ⛽Fuel Calculator
 
@@ -19,9 +20,16 @@ A simple website that helps drivers calculate fuel consumption for a trip.
 - JavaScript
 
 ## Website Language
-- Ukraine
+- Ukrainian
 
 ## Changelog
+
+### Version [1.2] (21 July 2026)
+***Added:**
+- Dark theme.
+- Animated information banner.
+- Various changes to the UI.
+- Website logo.
 
 ### Version [1.1] (19 July 2026)
 **Added:**
@@ -34,7 +42,7 @@ A simple website that helps drivers calculate fuel consumption for a trip.
 **Initial release:**
 - Fuel consumption calculation
 
-**Current version:** **1.1**
+**Current version:** **1.2**
 
 ## Author
 

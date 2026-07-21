@@ -4,6 +4,19 @@ const distanceInput = document.getElementById("distance");
 const calculateButton = document.getElementById("calculate");
 const clearButton = document.getElementById("reset");
 const toast = document.getElementById("toast");
+const themeButton = document.getElementById("theme-toggle");
+
+
+themeButton.addEventListener("click", function (){
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+        themeButton.textContent = "☀️";
+    }
+    else {
+        themeButton.textContent = "🌙";
+    }
+});
 
 function showToast(text) {
     toast.textContent = text;

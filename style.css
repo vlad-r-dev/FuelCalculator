@@ -135,6 +135,32 @@ a:hover {
     opacity: 1;
 }
 
+.marquee {
+    width: 100%;
+    background-color: rgb(129, 250, 129);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 80px;
+
+}
+
+.marquee-text {
+    display: inline-block;
+    animation: marquee 20s linear infinite;
+}
+
+/* Робить текст під заголовком бігаючим */
+@keyframes marquee {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
 footer {
     margin: 0;
     padding: 0;

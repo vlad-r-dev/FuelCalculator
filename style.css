@@ -37,12 +37,38 @@ main {
     min-height: 100vh;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: start;
+    gap: 20px;
+    width: 100%;
+}
+
+.tip {
+    grid-column: 1;
+    justify-content: end;
+    margin-left:50px;
+    width: 200px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    border: 2px solid #333;
+
+}
+
+#tip {
+    padding-left: 5px;
+    
+}
+
 .content {
     width: 500px;
     background-color: rgb(235, 156, 10);
     border-radius: 15px;
     padding: 10px 0 0 10px;
-
+    margin-bottom: 200px;
+    border: 2px solid #000;
+    grid-column: 2;
 }
 
 .name {
@@ -134,6 +160,12 @@ a:hover {
     color: gray;
 }
 
+::placeholder {
+    color: #a4a4a4;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
 #toast {
     position: fixed;
     
@@ -160,13 +192,14 @@ a:hover {
 
 .marquee {
     width: 100%;
-    background-color: rgb(129, 250, 129);
+    background-color: rgb(172, 166, 148);
     border: 1px solid rgba(0, 0, 0, 0.3);
-
+    color: white;
     overflow: hidden;
     white-space: nowrap;
     margin-top: 80px;
-
+/* Минулий зелений колір */
+/* background-color: rgb(129, 250, 129); */
 }
 
 .marquee-text {
@@ -184,13 +217,16 @@ a:hover {
     }
 }
 
+.tip {
+
+}
+
 footer {
     margin: 0;
     padding: 0;
     background-color: black;
     color: white;
     height: 100px;
-
 }
 
 /* Прибирає стрілочки в полях вводу */
@@ -205,7 +241,7 @@ input[type="number"] {
     appearance: textfield;
 }
 
-/* Чорна тема */
+/* ------- Чорна тема ------- */
 
 body.dark-mode {
     background-color: #1e1e1e;

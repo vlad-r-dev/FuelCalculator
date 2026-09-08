@@ -1,7 +1,7 @@
 ## Preview
 
-![Fuel Calculator](images/version1_3.png)
-![Dark Theme](images/Dark-mode_1_3.png)
+![Fuel Calculator](images/version_1_3.png)
+![Dark Theme](images/Dark_mode_1_3.png)
 
 # ⛽Fuel Calculator
 

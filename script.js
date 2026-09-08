@@ -5,7 +5,7 @@ const calculateButton = document.getElementById("calculate");
 const clearButton = document.getElementById("reset");
 const toast = document.getElementById("toast");
 const themeButton = document.getElementById("theme-toggle");
-
+const result = document.getElementById("result");
 
 themeButton.addEventListener("click", function (){
     document.body.classList.toggle("dark-mode");
@@ -76,4 +76,5 @@ function (){
     consumptionInput.value = "";
     fuelInput.value = "";
     distanceInput.value = "";
+    result.textContent = "";
 });

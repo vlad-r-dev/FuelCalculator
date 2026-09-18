@@ -6,6 +6,10 @@ const clearButton = document.getElementById("reset");
 const toast = document.getElementById("toast");
 const themeButton = document.getElementById("theme-toggle");
 const result = document.getElementById("result");
+const carBtn = document.getElementById("carBtn");
+const modal = document.getElementById("carModal");
+const closeBtn = document.getElementById("closeModal");
+
 
 themeButton.addEventListener("click", function (){
     document.body.classList.toggle("dark-mode");

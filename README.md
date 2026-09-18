@@ -24,7 +24,12 @@ A simple website that helps drivers calculate fuel consumption for a trip.
 
 ## Changelog
 
-### Version [1.3] (08 September 2026)
+### Version [1.4] (18 September 2026)
+**Added:**
+- "About Us" section
+- Minor design tweaks
+
+### Version [1.3] (08 September 2026) RELEASE
 **Added:**
 - Mobile layout: Optimised for mobile devices.
 - Updated main design: The colour scheme has been changed.
@@ -51,7 +56,7 @@ A simple website that helps drivers calculate fuel consumption for a trip.
 **Initial release:**
 - Fuel consumption calculation
 
-**Current version:** **1.3**
+**Current version:** **1.4**
 
 ## Author
 

@@ -1,0 +1,179 @@
+body {
+    font-family: "Nunito", sans-serif;
+    position: relative;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #EAEFE9;
+    transition: 0.4s, color 0.4s;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-link {
+    position: absolute;
+    left: 60px;
+    
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+label {
+    font-size: 23px;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;               
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.about-left {
+    flex: 1.2;
+}
+
+.about-left h2 {
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.about-left p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+.about-right {
+  flex: 1;
+  background-color: #ffffff;
+  border: 1px solid #d0d0d0;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+}
+
+.about-right h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.author-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.GitHub-link {
+    width: 20px;
+    height: 20px;
+}
+
+.author-link:hover {
+  text-decoration: underline;
+}
+
+
+
+.site-footer {
+    width: 100%;
+    margin-top: auto;
+    padding: 20px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    background-color: transparent;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copyright {
+    margin: 0;
+    font-size: 13px;
+    color: #717171;
+    font-weight: 500;
+}
+
+.github-link {
+    color: #137333;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.github-link:hover {
+    color: #0d652d;
+    text-decoration: underline;
+}
+
+.version {
+    background-color: #e6f4ea;
+    color: #137333;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 12px;
+    border: 1px solid #a8dab5;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 700px) {
+
+    .name {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .back-link {
+        left: 10px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+
+    .about-right {
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 100px;
+    }
+}

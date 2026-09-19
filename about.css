@@ -14,6 +14,25 @@ body {
     position: relative;
 }
 
+#theme-toggle {
+    background-color: white;
+    position: absolute ;
+    top: 20px;
+    right: 20px;
+
+    width: 40px;
+    height: 30px;
+    
+    border-radius: 20px;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -176,4 +195,53 @@ main {
         box-sizing: border-box;
         margin-bottom: 100px;
     }
+}
+/* ------- Чорна тема ------- */
+
+body.dark-mode {
+    background-color: #121413;
+    color: #e1e3e0;
+}
+
+body.dark-mode .name,
+body.dark-mode .text-project {
+    color: #e1e3e0;
+}
+
+body.dark-mode #theme-toggle {
+  background-color: #242926;
+  border: 1px solid #38423d;
+  color: #ffcc00;
+}
+
+body.dark-mode .about-right {
+    background-color: #1a1d1b;
+    border: 2px solid #2d3330;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .links {
+    color: #1e9a60;
+}
+
+body.dark-mode .site-footer {
+    border-top-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .footer-copyright {
+    color: #a0a0a0;
+}
+
+body.dark-mode .github-link {
+    color: #a8dab5;
+}
+
+body.dark-mode .github-link:hover {
+    color: #ffffff;
+}
+
+body.dark-mode .version {
+    background-color: #133e2b;
+    color: #a8dab5;
+    border-color: #1b5e3f;
 }

@@ -492,7 +492,7 @@ body.dark-mode .version {
     border-color: #1b5e3f;
 }
 
-body.dark-mode .car {
+/* body.dark-mode .car {
     background-color: #1a1d1b;
     color: #ffffff;
 }
@@ -510,7 +510,7 @@ body.dark-mode #saveCar {
     border-radius: 5px;
     color: #ffffff;
     height: 30px;
-}
+} */
 
 @media (max-width: 480px) {
 

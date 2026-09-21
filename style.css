@@ -34,6 +34,48 @@ header {
     justify-content: center;
 }
 
+#burger-btn {
+    position: absolute; 
+    left: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sidebarMenu {
+    display: none;
+    position: fixed;
+    top: 50px;
+    left: 20px;
+    width: 250px;
+    background-color: #ffffffff;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+}
+
+.menu-list :hover {
+    color: #2bd49c;
+}
+
+.pos {
+    display: block;
+    padding: 14px 18px;
+    text-decoration: none;
+    background-color: #c4ccc3;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
 main {
     display: flex;
     justify-content: center;

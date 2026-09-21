@@ -28,6 +28,8 @@ A simple website that helps drivers calculate fuel consumption for a trip.
 **Added:**
 - "About Us" section
 - Minor design tweaks
+- Burger Menu
+- Pages: "Formula", "What is this programme?", "About the author"
 
 ### Version [1.3] (08 September 2026) RELEASE
 **Added:**

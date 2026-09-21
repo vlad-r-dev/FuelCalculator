@@ -9,7 +9,24 @@ const result = document.getElementById("result");
 const carBtn = document.getElementById("carBtn");
 const modal = document.getElementById("carModal");
 const closeBtn = document.getElementById("closeModal");
+const sidebarMenu = document.getElementById("sidebarMenu");
+const burgerBtn = document.getElementById("burger-btn")
+const closes = document.getElementById("close");
 
+closes.addEventListener('click', () => {
+    sidebarMenu.style.display = 'none'
+})
+
+burgerBtn.addEventListener('click', () => {
+    sidebarMenu.style.display = 'block';
+});
+
+
+document.addEventListener('click', (event) => {
+    if(!burgerBtn.contains(event.target) && !sidebarMenu.contains(event.target)) {
+        sidebarMenu.classList.remove('open');
+    }
+});
 
 themeButton.addEventListener("click", function (){
     document.body.classList.toggle("dark-mode");
